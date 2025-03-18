@@ -10,7 +10,7 @@
 
 ## Table of Contents
 
-- [Demo](#demo)
+
 - [Overview](#overview)
 - [About the Dataset](#about-the-dataset)
 - [Installation](#installation)
@@ -19,16 +19,7 @@
 - [Bug / Feature Request](#bug--feature-request)
 - [Future Scope](#future-scope)
 
-## Demo
 
-- Link: https://imgcaptiongen.streamlit.app/
-
-`Note:` If the website link provided above is not working, it might mean that the deployment has been stopped or there are technical issues. We apologize for any inconvenience.
-
-- Please consider giving a ⭐ to the repository if you find this app useful.
-- A quick preview of the **Image Caption Generator** app:
-
-![Caption Generator Demo](resource/demo.gif)
 
 ## Overview
 
@@ -68,6 +59,8 @@ pip install -r requirements.txt
 ```
 This will install all the necessary packages and libraries needed to run the project.
 
+run code in jupyter notebook to get mymodel.h5
+
 ## Deployement on Streamlit
 
 1. Create an account on Streamlit Sharing.
@@ -88,18 +81,14 @@ enableCORS = false
 ```
 |   app.py
 |   image-captioner.ipynb
-|   LICENSE.md
+|  
 |   mymodel.h5
 |   README.md
 |   requirements.txt
 |   tokenizer.pkl
-\---resource
-        demo.gif
+
 ```
 
-## Bug / Feature Request
-
-If you encounter any bugs or issues with the loan status predictor app, please let me know by opening an issue on my [GitHub repository](https://github.com/Sajid030/image-captioning/issues). Be sure to include the details of your query and the expected results. Your feedback is valuable in helping me improve the app for all users. Thank you for your support!
 
 ## Future Scope
 
